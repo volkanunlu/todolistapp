@@ -1,0 +1,20 @@
+<div class="container">
+    <app-add-item [unDoneModels]="unDoneModels"  >
+
+        <label for="input" class="label control">Yapılacak İş</label>
+        <!-- <input type="text" class="form-control" id="input" [(ngModel)]="unDoneItem"> -->
+        <input type="text" class="form-control" id="input" #addInput>
+        <!-- # Lokal referans olarak bize geri dönüş sağlar.Ngmodel yerine kullanılabilir. -->
+        
+        <button class="btn btn-primary mt-2" (click)="addUndoneItem(addInput)">Ekle</button>
+
+    </app-add-item>
+    <div class="row mt-2">
+      <div class="col-md-6">
+        <app-undone [unDoneModels]="unDoneModels"  [doneModels]="doneModels"></app-undone>
+      </div>
+      <div class="col-md-6 mt-2">
+        <app-done [doneModels]="doneModels" [unDoneModels]="unDoneModels"></app-done>
+      </div>
+    </div>
+    </div>
