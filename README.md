@@ -1,6 +1,28 @@
 # MyTodoApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.4.
+This project was generated with Angular version 14.0.4. , Bootstrap , SCSS.
+
+# EXPLANATİON
+
+This project is a contains different components.This is a different way of todolist app.
+
+# APP SCREEN 
+
+![To do list ](https://user-images.githubusercontent.com/36553214/183218026-69c14031-e709-4eda-8b76-d67529e9b505.png)
+
+# COMPONENTS 
+
+ *  AppComponent
+ *  HomeComponent
+ *  DoneComponent
+ *  UndoneComponent
+ *  AddItemComponent
+ 
+ # MODULES
+ 
+ * BrowserModule
+ * AppRoutingModule
+ * FormsModule
 
 ## Development server
 
